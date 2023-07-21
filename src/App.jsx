@@ -1,7 +1,12 @@
+import { Route, Routes } from 'react-router-dom';
+import Greeting from './components/Greeting';
+
 function App() {
   return (
     <>
-      <h1>hello</h1>
+      <Routes>
+        <Route path="/" element={<Greeting />} />
+      </Routes>
     </>
   );
 }
