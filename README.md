@@ -127,7 +127,7 @@ Install this project with:
 To run the project, execute the following command:
 
 ```sh
-npm start
+npm run dev
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
